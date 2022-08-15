@@ -3,6 +3,7 @@
 /* Defining Variables */
 :root {
   --primary-color: #0284c7;
+  --dark-grey: #334155;
 }
 
 body {
@@ -44,6 +45,7 @@ hr {
   background-color: var(--primary-color);
   color: white;
   padding: 1rem;
+  border-bottom-left-radius: 1rem;
 }
 
 .navbar a {
@@ -61,6 +63,22 @@ hr {
 
 .navbar .link-active {
   font-weight: bold;
+}
+
+/* Hero */
+.hero {
+  padding: 2rem;
+  text-align: center;
+}
+
+.hero .hero-img {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+}
+
+.hero .hero-heading {
+  color: var(--dark-grey);
 }
 
 /* common styles */

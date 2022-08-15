@@ -30,7 +30,6 @@ hr {
 }
 
 /* list */
-
 .list-non-bullet {
   list-style: none;
 }
@@ -39,3 +38,29 @@ hr {
   display: inline;
   margin: 0 1rem;
 }
+
+/* navigation */
+.navbar {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 1rem;
+}
+
+.navbar a {
+  color: white;
+}
+
+.navbar .nav-brand {
+  font-weight: bold;
+  font-size: large;
+}
+
+.navbar .nav-items {
+  text-align: right;
+}
+
+.navbar .link-active {
+  font-weight: bold;
+}
+
+/* common styles */

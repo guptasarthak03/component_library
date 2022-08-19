@@ -4,6 +4,7 @@
 :root {
   --primary-color: #0284c7;
   --dark-grey: #334155;
+  --off-white: #cbd5e1;
 }
 
 body {
@@ -79,6 +80,21 @@ hr {
 
 .hero .hero-heading {
   color: var(--dark-grey);
+}
+
+/* container */
+
+.container {
+  padding: 0rem 1rem;
+}
+
+.container-center {
+  max-width: 400px;
+  margin: auto;
+}
+
+.ow {
+  background-color: var(--off-white);
 }
 
 /* common styles */
